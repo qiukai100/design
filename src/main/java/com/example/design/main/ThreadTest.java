@@ -15,7 +15,7 @@ public class ThreadTest {
      * 2、countDown()，使初始值减一
      * 3、await()，如果初始值不为0，那么一直等待
      */
-    private final static CountDownLatch COUNT_DOWN_LATCH = new CountDownLatch(3);
+    private final static CountDownLatch COUNT_DOWN_LATCH = new CountDownLatch(2);
 
     public static void main(String[] args) {
         System.out.println("main exec start.");
